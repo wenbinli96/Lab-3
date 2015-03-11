@@ -4,7 +4,7 @@ import java.util.Comparator;
 public final class Card {
 	private eSuit Suit;
 	private eRank Rank;
-
+//
 	/**
 	 * Keep the no-arg constructor private.  I don't want 'Card' created without attributes.
 	 */
