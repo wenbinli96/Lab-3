@@ -16,7 +16,13 @@ import poker.Hand;
 import poker.eHandStrength;
 import poker.eRank;
 import poker.eSuit;
-
+/*
+ * To DO:
+ * create unit tests for the following:
+ * each kind o hand(royal flush, straight flush,...)
+ * test the new hands from part 1
+ * test all versions of each hand (four of a kind, test 22223 and 33332)
+ */
 public class TestHands {
 
 	@BeforeClass
