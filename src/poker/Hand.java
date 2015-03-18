@@ -3,7 +3,18 @@ package poker;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
+/*
+ * To DO:
+ * add to eval method a 5-of-a-kind, strength is between a 4 of a kind and a straight flush
+ * add to eval method natural royal flush (a royal flush without joker)
+ * EvalHand will need to change to account for the joker's unique properties
+ * create new method in Hand that will return the winning hand out of an ArrayList of given hands
+ *    The signature for the method should look like:
+ *    		public static Hand PickBestand(Arraylist<Hand> Hands) throws exHand{}
+ *    			should judge a passed list of hands, returning the best hand, If the top two hands are tied, an exception should
+ *    				be thrown (hence exHand)
+ * 
+ */
 public class Hand {
 	private ArrayList<Card> CardsInHand;
 

@@ -16,7 +16,7 @@ import poker.Hand;
 import poker.eHandStrength;
 import poker.eRank;
 import poker.eSuit;
-//this should work
+
 public class TestHands {
 
 	@BeforeClass

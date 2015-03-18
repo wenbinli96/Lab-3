@@ -1,7 +1,10 @@
 package poker;
 
 public enum eRank {
-
+	/*
+	 * To DO:
+	 * add Joker enum
+	 */
 	TWO(2), 
 	THREE(3), 
 	FOUR(4), 

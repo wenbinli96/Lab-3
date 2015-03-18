@@ -7,6 +7,13 @@ import java.util.Random;
 public class Deck {
 	private ArrayList<Card> cards;
 
+	/*
+	 * To DO:
+	 * make a new constructor for jokers
+	 * public Deck(int jokers)
+	 */
+	 	
+	
 	public Deck() {
 
 		//	Create an ArrayList of Cards, add each card
