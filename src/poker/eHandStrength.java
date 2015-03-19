@@ -1,12 +1,11 @@
 package poker;
 
 public enum eHandStrength {
-	/*
-	 * To DO:
-	 * add a 5 of a kind enum 
-	 */
-	RoyalFlush(100),
+
+	NaturalRoyalFlush(100),
+	RoyalFlush(95),
 	StraightFlush(90),
+	FiveOfAKind(85),
 	FourOfAKind(80),
 	FullHouse(70),
 	Flush(60),

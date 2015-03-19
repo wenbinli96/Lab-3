@@ -1,10 +1,7 @@
 package poker;
 
 public enum eRank {
-	/*
-	 * To DO:
-	 * add Joker enum
-	 */
+
 	TWO(2), 
 	THREE(3), 
 	FOUR(4), 
@@ -17,7 +14,9 @@ public enum eRank {
 	JACK(11), 
 	QUEEN(12), 
 	KING(13), 
-	ACE(14);
+	ACE(14),
+	JOKER(99);
+	
 
 	private eRank(final int rank){
 		this.rank = rank;
