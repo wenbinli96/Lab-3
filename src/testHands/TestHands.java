@@ -1,4 +1,6 @@
 package testHands;
+import static org.junit.Assert.*;
+import poker.*;
 
 import static org.junit.Assert.*;
 
@@ -19,6 +21,7 @@ import poker.eSuit;
 /*
  * To DO:
  * create unit tests for the following:
+ * deck with jokers
  * each kind o hand(royal flush, straight flush,...)
  * test the new hands from part 1
  * test all versions of each hand (four of a kind, test 22223 and 33332)
